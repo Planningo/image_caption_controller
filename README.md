@@ -2,7 +2,7 @@
 
 A Python app for check image data caption result, edit caption and delete. (can use in Mac too!)
 
-## `Train image files and caption files have to be in same directory with same name but different type.`
+### `Train image files and caption files have to be in same directory with same name but different type.`
 
 (for example: images/A.png ,images/A.txt,images/b.jpg ,images/A.txt,...)
 
@@ -24,7 +24,7 @@ pip install -r requiremetns.txt
 
 # Usage
 
-## `check and edit caption of the image, and delete the data set in the directory`
+### `check and edit caption of the image, and delete the data set in the directory`
 
 press arrow left and right to view images, `cmd+backspace` in mac can delete the image without click the button.
 
