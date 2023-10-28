@@ -28,7 +28,7 @@ pip install -r requiremetns.txt
 
 `check and edit caption of the image, and delete the data set in the directory`
 
-press arrow left and right to view images, `cmd+backspace` in mac can delete the image without click the button.
+press arrow `left` and `right` to view images, `cmd+backspace` in mac can delete the image without click the button.
 
 # Params
 
