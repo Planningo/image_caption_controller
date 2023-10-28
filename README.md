@@ -28,12 +28,12 @@ pip install -r requiremetns.txt
 
 press arrow left and right to view images, `cmd+backspace` in mac can delete the image without click the button.
 
-| Parameter         | Default Value | Description                                                                                                                                                                                |
-| ----------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| dir               | req. param    | path to the image and caption data set                                                                                                                                                     |
-| caption_file_type | `'txt'`       | file type of the caption file                                                                                                                                                              |
-| start_index       | `0`           | initial start index of the dataset                                                                                                                                                         |
-| preload_range     | `10`          | Numbers of preload range. if 10, the 10 images before the current index image, and after 10 images from the current index image would be preloaded, this if for image dataset in the cloud |
+| Parameter         | Default Value | Description                                                                                                                                     |
+| ----------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| dir               | req. param    | path to the image and caption data set                                                                                                          |
+| caption_file_type | `'txt'`       | file type of the caption file                                                                                                                   |
+| start_index       | `0`           | initial start index of the dataset                                                                                                              |
+| preload_range     | `10`          | Numbers of preload range. if 10, range current index -10 to current index +10 images would be preloaded, this if for image dataset in the cloud |
 
 # Contributions
 
