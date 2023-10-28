@@ -21,7 +21,7 @@ pip install -r requiremetns.txt
 # Start app
 
 `python3 main.py --dir {your images and caption dir}`
-![alt text](https://github.com/Planningo/image_caption_controller/app_screenshot.jpg/blob/main/image.jpg?raw=true)
+![alt text](https://github.com/Planningo/image_caption_controller/blob/main/app_screenshot.jpg)
 
 # Usage
 
