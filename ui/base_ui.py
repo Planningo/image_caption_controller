@@ -20,7 +20,8 @@ class ControllerUI:
         self, folder_dir: str, caption_file_type="txt", start_index=0, preload_range=10
     ):
         self.window_size = "1000x900"
-        self.root = CTk(title="Image Caption Controller")
+        self.root = CTk()
+        self.root.title("Image Caption Controller")
         self.folder_dir = folder_dir
         self.caption_file_type = caption_file_type
         self.image_captioned_list = get_file_names_only_has_caption(

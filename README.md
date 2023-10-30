@@ -18,6 +18,12 @@ cd image_caption_controller
 pip install -r requiremetns.txt
 ```
 
+if you are mac user, you have to install tkinter by brew.
+
+```
+brew install tcl-tk
+```
+
 # Start app
 
 `python3 main.py --dir {your images and caption dir}`
