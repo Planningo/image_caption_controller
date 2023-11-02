@@ -35,12 +35,15 @@ class FileController:
         )
 
     def save_caption(self, file_name, data):
+        print('save!')
         with open(os.path.join(self.folder_dir, file_name), "w") as file:
             file.write(data)
 
     def preload_images(self, file_list: list, current_index: int):
         def load_data(file_dir: str):
-            Image.open(file_dir)
+            i = Image.open(file_dir)
+            i.resize((512,512))
+
             file_type = file_dir.split(".")[-1]
             open(file_dir.replace(file_type, "txt"))
 
